@@ -29,7 +29,7 @@ dryRun=true is only used to check if anything is missing in the step definition 
         },
         features = "./src/test/resources/features",
         glue = "stepdefinitions",
-//        tags = "@google_search",
+        tags = "@google_search",
         dryRun = false
 )
 public class Runner {
